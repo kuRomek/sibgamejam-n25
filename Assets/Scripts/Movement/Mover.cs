@@ -13,6 +13,6 @@ public class Mover : MonoBehaviour
         _directionY = Input.GetAxis("Vertical");
         _directionX = Input.GetAxis("Horizontal");
 
-        _characterController.Move((Vector3.forward * _directionY + Vector3.right * _directionX) * _speed * Time.deltaTime);
+        _characterController.Move(_speed * Time.deltaTime * (Vector3.forward * _directionY + Vector3.right * _directionX));
     }
 }
