@@ -9,11 +9,14 @@ public class DissolvingObject : MonoBehaviour
 
     [SerializeField] private MeshRenderer _meshRenderer;
     [SerializeField] private Material _originalMaterial;
+    [SerializeField] private float _revealingSpeed;
 
     private Material _material;
 
-    private float _revealingStartDistance = 3f;
+    private float _revealingStartDistanceSquared = Mathf.Pow(2, 2);
+    private float _revealingStartDistanceSquaredBeam = 1f;
     private bool _revealed = false;
+    private float _dissolveAmount;
 
     private void OnValidate()
     {
@@ -39,19 +42,20 @@ public class DissolvingObject : MonoBehaviour
         if (Flashlight.Collider.gameObject.activeSelf == true)
             beamClosestPoint = Flashlight.Collider.ClosestPoint(transform.position);
 
-        float dissolveAmountFlashlight = 1f -
-            Mathf.Max(0f,
-            _revealingStartDistance * _revealingStartDistance - (beamClosestPoint - transform.position).sqrMagnitude) /
-            (_revealingStartDistance * _revealingStartDistance);
+        float playerDistance = (Player.Position - transform.position).sqrMagnitude;
+        float beamDistance = (beamClosestPoint - transform.position).sqrMagnitude;
 
-        float dissolveAmountPlayer = 1f -
-            Mathf.Max(0f,
-            _revealingStartDistance * _revealingStartDistance - (Player.Position - transform.position).sqrMagnitude + 2f) /
-            (_revealingStartDistance * _revealingStartDistance);
+        if (playerDistance < beamDistance)
+        {
+            _dissolveAmount = 1f -
+                Mathf.Max(0f, _revealingStartDistanceSquared - playerDistance + 2f) / _revealingStartDistanceSquared;
+        }
+        else if (beamDistance < _revealingStartDistanceSquaredBeam)
+        {
+            _dissolveAmount = Mathf.Max(0f, _dissolveAmount - _revealingSpeed * Time.deltaTime);
+        }
 
-        float dissolveAmount = Mathf.Min(dissolveAmountFlashlight, dissolveAmountPlayer);
-
-        if (dissolveAmount < DissolveTolerance)
+        if (_dissolveAmount < DissolveTolerance)
         {
             _revealed = true;
 
@@ -62,8 +66,8 @@ public class DissolvingObject : MonoBehaviour
         }
         else
         {
-            _material.SetFloat("_Reveal", dissolveAmount);
-            _material.SetFloat("_EdgeWidth", dissolveAmount);
+            _material.SetFloat("_Reveal", _dissolveAmount);
+            _material.SetFloat("_EdgeWidth", _dissolveAmount);
         }
     }
 

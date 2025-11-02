@@ -813,6 +813,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _meshRenderer: {fileID: 279366926}
   _originalMaterial: {fileID: 2100000, guid: 5a60e863e58712644884cafce48ea936, type: 2}
+  _revealingSpeed: 0.5
 --- !u!1 &283400391 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8734238742064007760, guid: 5764549916b7d4847b35517f30b5326d, type: 3}
@@ -1178,6 +1179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _meshRenderer: {fileID: 587370737}
   _originalMaterial: {fileID: 2100000, guid: 5a60e863e58712644884cafce48ea936, type: 2}
+  _revealingSpeed: 0.5
 --- !u!1 &589542789
 GameObject:
   m_ObjectHideFlags: 0
@@ -1769,6 +1771,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _meshRenderer: {fileID: 823836613}
   _originalMaterial: {fileID: 2100000, guid: 5a60e863e58712644884cafce48ea936, type: 2}
+  _revealingSpeed: 0.5
 --- !u!1 &831644463
 GameObject:
   m_ObjectHideFlags: 0
@@ -2000,6 +2003,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _meshRenderer: {fileID: 866588958}
   _originalMaterial: {fileID: 2100000, guid: 5a60e863e58712644884cafce48ea936, type: 2}
+  _revealingSpeed: 0.5
 --- !u!1 &936706255
 GameObject:
   m_ObjectHideFlags: 0
@@ -2555,6 +2559,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _meshRenderer: {fileID: 1660903025}
   _originalMaterial: {fileID: 2100000, guid: 5a60e863e58712644884cafce48ea936, type: 2}
+  _revealingSpeed: 0.5
 --- !u!4 &1676611619 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 435116042906656394, guid: e00189545c5ca8843ae1d1b77dcbb174, type: 3}
@@ -2751,6 +2756,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _meshRenderer: {fileID: 1737950994}
   _originalMaterial: {fileID: 2100000, guid: 5a60e863e58712644884cafce48ea936, type: 2}
+  _revealingSpeed: 0.5
 --- !u!1 &1989076044
 GameObject:
   m_ObjectHideFlags: 0
@@ -7924,6 +7930,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _meshRenderer: {fileID: 2095843273}
   _originalMaterial: {fileID: 2100000, guid: 5a60e863e58712644884cafce48ea936, type: 2}
+  _revealingSpeed: 0.5
 --- !u!1001 &7231913796406123646
 PrefabInstance:
   m_ObjectHideFlags: 0
