@@ -14,6 +14,12 @@ public class Rotator : MonoBehaviour
     private float _minRotationX = -90f;
     private float _maxRotationX = 90f;
 
+    private void Awake()
+    {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+
     private void Update()
     {
         float mouseX = Input.GetAxis(HorizontalMouseAxis) * _mouseSensetivityX * Time.deltaTime;
