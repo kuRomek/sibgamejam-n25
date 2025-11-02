@@ -14758,7 +14758,6 @@ GameObject:
   - component: {fileID: 2076262461}
   - component: {fileID: 2076262460}
   - component: {fileID: 2076262459}
-  - component: {fileID: 2076262463}
   - component: {fileID: 2076262462}
   m_Layer: 0
   m_Name: Water
@@ -14870,19 +14869,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _targetWaterLevelScaleY: 8
   _duration: 8
---- !u!114 &2076262463
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2076262457}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51f47f03aeb298e42a7d050ba0fddce2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _waterLevelRise: {fileID: 2076262462}
 --- !u!1 &2095820037
 GameObject:
   m_ObjectHideFlags: 0
