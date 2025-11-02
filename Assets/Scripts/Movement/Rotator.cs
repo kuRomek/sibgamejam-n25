@@ -11,6 +11,8 @@ public class Rotator : MonoBehaviour
     [SerializeField] private float _mouseSensetivityY;
 
     private float _rotationX = 0f;
+    private float _minRotationX = -90f;
+    private float _maxRotationX = 90f;
 
     private void Update()
     {
@@ -18,9 +20,9 @@ public class Rotator : MonoBehaviour
         float mouseY = Input.GetAxis(VerticalMouseAxis) * _mouseSensetivityY * Time.deltaTime;
 
         _rotationX -= mouseY;
-        _rotationX = Mathf.Clamp(_rotationX, -90f, 90f);
+        _rotationX = Mathf.Clamp(_rotationX, _minRotationX, _maxRotationX);
 
-        _cameraTransform.localRotation = Quaternion.Euler(_rotationX, 0f, 0f);
-        _characterController.transform.Rotate(Vector3.up * mouseX); 
+        _cameraTransform.localRotation = Quaternion.Euler(_rotationX, default, default);
+        _characterController.transform.Rotate(Vector3.up * mouseX);
     }
 }
