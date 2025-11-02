@@ -1,4 +1,4 @@
-Shader "Custom/RevealingEffect"
+﻿Shader "Custom/RevealEffectURP"
 {
     Properties
     {
@@ -13,17 +13,22 @@ Shader "Custom/RevealingEffect"
 
     SubShader
     {
-        Tags { "RenderType"="Transparent" "Queue"="Transparent" }
+        Tags { "RenderType"="Transparent" "Queue"="Transparent" "RenderPipeline"="UniversalRenderPipeline" }
+        ZWrite Off
         Blend SrcAlpha OneMinusSrcAlpha
         Cull Off
-        ZWrite Off
 
         Pass
         {
+            Name "UniversalForward"
+            Tags { "LightMode"="UniversalForward" }
+
             HLSLPROGRAM
             #pragma vertex vert
             #pragma fragment frag
+            #pragma multi_compile_fog
             #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
+            #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/DeclareDepthTexture.hlsl"
 
             struct Attributes
             {
@@ -47,6 +52,7 @@ Shader "Custom/RevealingEffect"
             float4 _EdgeColor;
             float4 _MainColor;
             float _EmissionStrength;
+            float _DepthFadeDistance;
 
             Varyings vert (Attributes v)
             {
@@ -58,24 +64,23 @@ Shader "Custom/RevealingEffect"
 
             half4 frag (Varyings i) : SV_Target
             {
-                float2 uv = i.uv;
+                // base color
+                float4 col = tex2D(_MainTex, i.uv) * _MainColor;
 
-                float noise = tex2D(_NoiseTex, uv).r;
-                float revealEdge = smoothstep(_Reveal - _EdgeWidth, _Reveal, noise);
+                // noise mask
+                float n = tex2D(_NoiseTex, i.uv).r;
 
-                float baseAlpha = revealEdge;
-                float edgeMask = smoothstep(_Reveal, _Reveal + _EdgeWidth, noise) - revealEdge;
+                // reveal mask — работает "прямо"
+                float mask = smoothstep(_Reveal, _Reveal + _EdgeWidth, n);
+                float edge = smoothstep(_Reveal - _EdgeWidth, _Reveal, n) - mask;
 
-                float4 baseColor = tex2D(_MainTex, uv) * _MainColor;
-                float3 edgeGlow = _EdgeColor.rgb * edgeMask * _EmissionStrength;
+                // final color
+                float3 finalColor = col.rgb + _EdgeColor.rgb * edge * _EmissionStrength;
+                float alpha = col.a * mask;
 
-                float3 finalColor = baseColor.rgb + edgeGlow;
-
-                return float4(finalColor, baseAlpha * baseColor.a);
+                return float4(finalColor, alpha);
             }
             ENDHLSL
         }
     }
-
-    FallBack "Transparent/Diffuse"
 }
