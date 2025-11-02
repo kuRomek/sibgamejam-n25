@@ -2,17 +2,17 @@ using UnityEngine;
 
 public class Mover : MonoBehaviour
 {
+    private const string HorizontalAxis = "Horizontal";
+    private const string VerticalAxis = "Vertical";
+
     [SerializeField] private CharacterController _characterController;
     [SerializeField] private float _speed;
 
-    private float _directionY;
-    private float _directionX;
-
     private void Update()
     {
-        _directionY = Input.GetAxis("Vertical");
-        _directionX = Input.GetAxis("Horizontal");
+        float directionY = Input.GetAxis(VerticalAxis);
+        float directionX = Input.GetAxis(HorizontalAxis);
 
-        _characterController.Move((Vector3.forward * _directionY + Vector3.right * _directionX) * _speed * Time.deltaTime);
+        _characterController.Move((_characterController.transform.forward * directionY + _characterController.transform.right * directionX) * _speed * Time.deltaTime);
     }
 }
