@@ -9,7 +9,9 @@ public class Jumper : MonoBehaviour
     [SerializeField] private Transform _pivot;
     [SerializeField] private LayerMask _groundMask;
     [SerializeField] private float _jumpHeight;
+    [SerializeField] private float _detectorGroundRadius = 0.4f;
 
+    private float _defaultVelocity = -2;
     private float _velocity;
     private bool _isGrounded;
 
@@ -18,7 +20,7 @@ public class Jumper : MonoBehaviour
         _isGrounded = IsGrounded();
 
         if (_isGrounded && _velocity < 0)
-            _velocity = -2f;
+            _velocity = _defaultVelocity;
 
         DoGravity();
     }
@@ -29,10 +31,8 @@ public class Jumper : MonoBehaviour
             Jump();
     }
 
-    private void Jump()
-    {
-        _velocity = Mathf.Sqrt(_jumpHeight * -2 * Gravity);
-    }
+    private void Jump() =>
+        _velocity = Mathf.Sqrt(_jumpHeight * _defaultVelocity * Gravity);
 
     private void DoGravity()
     {
@@ -43,7 +43,7 @@ public class Jumper : MonoBehaviour
 
     private bool IsGrounded()
     {
-        bool result = Physics.CheckSphere(_pivot.position, 0.4f, _groundMask);
+        bool result = Physics.CheckSphere(_pivot.position, _detectorGroundRadius, _groundMask);
 
         return result;
     }
