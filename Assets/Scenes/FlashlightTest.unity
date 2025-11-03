@@ -848,6 +848,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _meshRenderer: {fileID: 279366926}
+  _canvasRenderer: {fileID: 0}
   _originalMaterial: {fileID: 2100000, guid: 5a60e863e58712644884cafce48ea936, type: 2}
   _collider: {fileID: 279366925}
   _revealingSpeed: 0.5
@@ -1329,6 +1330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _meshRenderer: {fileID: 587370737}
+  _canvasRenderer: {fileID: 0}
   _originalMaterial: {fileID: 2100000, guid: 5a60e863e58712644884cafce48ea936, type: 2}
   _collider: {fileID: 587370736}
   _revealingSpeed: 0.5
@@ -1344,9 +1346,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eebdbf06d212b5549aa937bde1f1b595, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _audioSource: {fileID: 279366930}
+  _audioSource: {fileID: 587370741}
   _audioKeeper: {fileID: 149129750}
-  _dissolvingObject: {fileID: 279366928}
+  _dissolvingObject: {fileID: 587370739}
 --- !u!82 &587370741
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1926,6 +1928,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _meshRenderer: {fileID: 823836613}
+  _canvasRenderer: {fileID: 0}
   _originalMaterial: {fileID: 2100000, guid: 5a60e863e58712644884cafce48ea936, type: 2}
   _collider: {fileID: 823836612}
   _revealingSpeed: 0.5
@@ -1941,9 +1944,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eebdbf06d212b5549aa937bde1f1b595, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _audioSource: {fileID: 279366930}
+  _audioSource: {fileID: 823836617}
   _audioKeeper: {fileID: 149129750}
-  _dissolvingObject: {fileID: 279366928}
+  _dissolvingObject: {fileID: 823836615}
 --- !u!82 &823836617
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2273,6 +2276,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _meshRenderer: {fileID: 866588958}
+  _canvasRenderer: {fileID: 0}
   _originalMaterial: {fileID: 2100000, guid: 5a60e863e58712644884cafce48ea936, type: 2}
   _collider: {fileID: 866588957}
   _revealingSpeed: 0.5
@@ -2288,9 +2292,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eebdbf06d212b5549aa937bde1f1b595, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _audioSource: {fileID: 279366930}
+  _audioSource: {fileID: 866588962}
   _audioKeeper: {fileID: 149129750}
-  _dissolvingObject: {fileID: 279366928}
+  _dissolvingObject: {fileID: 866588960}
 --- !u!82 &866588962
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2982,6 +2986,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _meshRenderer: {fileID: 1660903025}
+  _canvasRenderer: {fileID: 0}
   _originalMaterial: {fileID: 2100000, guid: 5a60e863e58712644884cafce48ea936, type: 2}
   _collider: {fileID: 1660903024}
   _revealingSpeed: 0.5
@@ -2997,9 +3002,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eebdbf06d212b5549aa937bde1f1b595, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _audioSource: {fileID: 279366930}
+  _audioSource: {fileID: 1660903029}
   _audioKeeper: {fileID: 149129750}
-  _dissolvingObject: {fileID: 279366928}
+  _dissolvingObject: {fileID: 1660903027}
 --- !u!82 &1660903029
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3289,6 +3294,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _meshRenderer: {fileID: 1737950994}
+  _canvasRenderer: {fileID: 0}
   _originalMaterial: {fileID: 2100000, guid: 5a60e863e58712644884cafce48ea936, type: 2}
   _collider: {fileID: 1737950993}
   _revealingSpeed: 0.5
@@ -3304,9 +3310,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eebdbf06d212b5549aa937bde1f1b595, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _audioSource: {fileID: 279366930}
+  _audioSource: {fileID: 1737950998}
   _audioKeeper: {fileID: 149129750}
-  _dissolvingObject: {fileID: 279366928}
+  _dissolvingObject: {fileID: 1737950996}
 --- !u!82 &1737950998
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8610,6 +8616,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _meshRenderer: {fileID: 2095843273}
+  _canvasRenderer: {fileID: 0}
   _originalMaterial: {fileID: 2100000, guid: 5a60e863e58712644884cafce48ea936, type: 2}
   _collider: {fileID: 2095843272}
   _revealingSpeed: 0.5
@@ -8625,9 +8632,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eebdbf06d212b5549aa937bde1f1b595, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _audioSource: {fileID: 279366930}
+  _audioSource: {fileID: 2095843277}
   _audioKeeper: {fileID: 149129750}
-  _dissolvingObject: {fileID: 279366928}
+  _dissolvingObject: {fileID: 2095843275}
 --- !u!82 &2095843277
 AudioSource:
   m_ObjectHideFlags: 0

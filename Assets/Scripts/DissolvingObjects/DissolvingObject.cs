@@ -86,6 +86,8 @@ public class DissolvingObject : MonoBehaviour
             _material.SetFloat("_Reveal", 0f);
             _material.SetFloat("_EdgeWidth", 0f);
 
+            Revealed.Invoke();
+
             Flash();
         }
         else
