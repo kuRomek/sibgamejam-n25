@@ -620,6 +620,7 @@ Transform:
   - {fileID: 1849602577}
   - {fileID: 829078866}
   - {fileID: 546995565}
+  - {fileID: 1385132145}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &140984737
@@ -7862,6 +7863,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1036869466}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1052017150 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 61702877924813573, guid: e00189545c5ca8843ae1d1b77dcbb174, type: 3}
+  m_PrefabInstance: {fileID: 1415568150}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1053953519
 GameObject:
   m_ObjectHideFlags: 0
@@ -10452,6 +10458,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.8955996, y: 2.7386205, z: 0.8783815}
   m_Center: {x: -0.00000008940699, y: 1.3051909, z: -0.12562607}
+--- !u!1 &1385132144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1385132145}
+  m_Layer: 0
+  m_Name: TeleportToLabirinth
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1385132145
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385132144}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.7138727, z: -0, w: 0.7002756}
+  m_LocalPosition: {x: 200.05952, y: 15.235551, z: -12.641032}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 139291221}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1390970095
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10946,15 +10983,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1460357091535414932, guid: e00189545c5ca8843ae1d1b77dcbb174, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.16
+      value: 35.7
       objectReference: {fileID: 0}
     - target: {fileID: 1460357091535414932, guid: e00189545c5ca8843ae1d1b77dcbb174, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 37.4
+      value: 0.716
       objectReference: {fileID: 0}
     - target: {fileID: 1460357091535414932, guid: e00189545c5ca8843ae1d1b77dcbb174, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 149.57
+      value: 1.791
       objectReference: {fileID: 0}
     - target: {fileID: 1460357091535414932, guid: e00189545c5ca8843ae1d1b77dcbb174, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10983,6 +11020,10 @@ PrefabInstance:
     - target: {fileID: 1460357091535414932, guid: e00189545c5ca8843ae1d1b77dcbb174, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6871918411717498360, guid: e00189545c5ca8843ae1d1b77dcbb174, type: 3}
+      propertyPath: _jumpHeight
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 9204161817464752143, guid: e00189545c5ca8843ae1d1b77dcbb174, type: 3}
       propertyPath: m_Name
@@ -21820,6 +21861,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8065741259909156735, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
+      propertyPath: _point
+      value: 
+      objectReference: {fileID: 1385132145}
+    - target: {fileID: 8065741259909156735, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
+      propertyPath: _rigidbody
+      value: 
+      objectReference: {fileID: 1052017150}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

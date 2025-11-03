@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class Teleportator : MonoBehaviour
 {
-    [SerializeField] private CharacterController _characterController;
+    [SerializeField] private Rigidbody _rigidbody;
     [SerializeField] private Transform _point;
 
     public void Teleport()
     {
-        _characterController.enabled = false;
-        _characterController.transform.position = _point.position;
-        _characterController.enabled = true;
+        _rigidbody.isKinematic = true;
+        _rigidbody.transform.position = _point.position;
+        _rigidbody.isKinematic = false;
     }
 }
