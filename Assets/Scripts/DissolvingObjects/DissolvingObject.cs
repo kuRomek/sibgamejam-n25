@@ -2,6 +2,7 @@ using DG.Tweening;
 using System;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DissolvingObject : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class DissolvingObject : MonoBehaviour
     private const float FlashAnimationDuration = 0.1f;
 
     [SerializeField] private MeshRenderer _meshRenderer;
+    [SerializeField] private Image _canvasRenderer;
     [SerializeField] private Material _originalMaterial;
     [SerializeField] private Collider _collider;
     [SerializeField] private float _revealingSpeed;
@@ -27,13 +29,19 @@ public class DissolvingObject : MonoBehaviour
         if (_meshRenderer == null)
             _meshRenderer = GetComponent<MeshRenderer>();
 
+        if (_canvasRenderer == null)
+            _canvasRenderer = GetComponent<Image>();
+
         if (_collider == null)
             _collider = GetComponent<Collider>();
     }
 
     private void Awake()
     {
-        _material = _meshRenderer.material;
+        if (_meshRenderer != null)
+            _material = _meshRenderer.material;
+        else if (_canvasRenderer != null)
+            _material = _canvasRenderer.material;
     }
 
     private void Start()
