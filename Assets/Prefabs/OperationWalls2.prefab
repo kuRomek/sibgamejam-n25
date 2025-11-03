@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4a4f7381be6d1f342a3434b217900a14, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: afe62ba72627eb244aa22338c412a81f, type: 2}
     - target: {fileID: 919132149155446097, guid: 4a4f7381be6d1f342a3434b217900a14, type: 3}
       propertyPath: m_Name
       value: OperationWalls2
@@ -63,7 +67,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4a4f7381be6d1f342a3434b217900a14, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7698511977942241306}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4a4f7381be6d1f342a3434b217900a14, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -443630246260747030}
   m_SourcePrefab: {fileID: 100100000, guid: 4a4f7381be6d1f342a3434b217900a14, type: 3}
+--- !u!23 &3047684305581721060 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 4a4f7381be6d1f342a3434b217900a14, type: 3}
+  m_PrefabInstance: {fileID: 4434384388315797856}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &3552056747001963569 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4a4f7381be6d1f342a3434b217900a14, type: 3}
@@ -91,3 +103,18 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5495902117074765545, guid: 4a4f7381be6d1f342a3434b217900a14, type: 3}
+--- !u!114 &-443630246260747030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3552056747001963569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 3047684305581721060}
+  _originalMaterial: {fileID: 2100000, guid: 6da3713ee9f0d604a89de739db76bb45, type: 2}
+  _revealingSpeed: 0.5

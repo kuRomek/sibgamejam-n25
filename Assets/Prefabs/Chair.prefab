@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e7a8c71bf7bfc2c4e993a3c20ab3ed67, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 4725a97ee63230143a1acb27c8d007e4, type: 2}
     - target: {fileID: 919132149155446097, guid: e7a8c71bf7bfc2c4e993a3c20ab3ed67, type: 3}
       propertyPath: m_Name
       value: Chair
@@ -67,7 +71,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e7a8c71bf7bfc2c4e993a3c20ab3ed67, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8464259054179768821}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e7a8c71bf7bfc2c4e993a3c20ab3ed67, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -1842528537709246523}
   m_SourcePrefab: {fileID: 100100000, guid: e7a8c71bf7bfc2c4e993a3c20ab3ed67, type: 3}
+--- !u!23 &197749241939847621 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: e7a8c71bf7bfc2c4e993a3c20ab3ed67, type: 3}
+  m_PrefabInstance: {fileID: 1548990068252734785}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1855051571893815312 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e7a8c71bf7bfc2c4e993a3c20ab3ed67, type: 3}
@@ -94,3 +106,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.0000002, y: 0.82112443, z: 1.0347317}
   m_Center: {x: 7.6524266e-11, y: 0.41123205, z: -0.017365752}
+--- !u!114 &-1842528537709246523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855051571893815312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 197749241939847621}
+  _originalMaterial: {fileID: 2100000, guid: 0488773828211f647807b4a27c6f2879, type: 2}
+  _revealingSpeed: 0.5
