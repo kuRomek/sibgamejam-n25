@@ -16,7 +16,7 @@ public class DissolvingObject : MonoBehaviour
     private Material _material;
 
     private float _revealingStartDistance = 3f;
-    private float _revealingStartDistanceBeam = 1f;
+    private float _revealingStartDistanceBeamSquared = 1f;
     private bool _revealed = false;
     private float _dissolveAmount;
 
@@ -53,15 +53,20 @@ public class DissolvingObject : MonoBehaviour
         float playerDistance = DistanceCalculator.Distance(_collider, Player.Collider);
         float beamDistance = 9999999f;
 
-        if (Flashlight.Collider.gameObject.activeSelf)
-            beamDistance = DistanceCalculator.Distance(_collider, Flashlight.Collider);
+        if (Flashlight.Collider.gameObject.activeSelf == true)
+        {
+            Vector3 beamClosestPoint = new Vector3(-10000, -10000, -10000);
+
+            beamClosestPoint = Flashlight.Collider.ClosestPoint(transform.position);
+            beamDistance = (beamClosestPoint - transform.position).sqrMagnitude;
+        }
 
         if (playerDistance < beamDistance)
         {
             _dissolveAmount = 1f -
                 Mathf.Max(0f, _revealingStartDistance - playerDistance) / _revealingStartDistance;
         }
-        else if (beamDistance < _revealingStartDistanceBeam)
+        else if (beamDistance < _revealingStartDistanceBeamSquared)
         {
             _dissolveAmount = Mathf.Max(0f, _dissolveAmount - _revealingSpeed * Time.deltaTime);
         }
