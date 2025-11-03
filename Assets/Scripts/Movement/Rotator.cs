@@ -6,7 +6,7 @@ public class Rotator : MonoBehaviour
     private const string VerticalMouseAxis = "Mouse Y";
 
     [SerializeField] private Transform _cameraTransform;
-    [SerializeField] private CharacterController _characterController;
+    [SerializeField] private Rigidbody _rigidbody;
     [SerializeField] private float _mouseSensetivityX;
     [SerializeField] private float _mouseSensetivityY;
 
@@ -29,6 +29,7 @@ public class Rotator : MonoBehaviour
         _rotationX = Mathf.Clamp(_rotationX, _minRotationX, _maxRotationX);
 
         _cameraTransform.localRotation = Quaternion.Euler(_rotationX, default, default);
-        _characterController.transform.Rotate(Vector3.up * mouseX);
+        Quaternion deltaRotation = Quaternion.Euler(0f, mouseX, 0f);
+        _rigidbody.MoveRotation(_rigidbody.rotation * deltaRotation);
     }
 }

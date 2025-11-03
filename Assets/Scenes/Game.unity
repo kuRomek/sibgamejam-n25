@@ -10984,10 +10984,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8038255389652168115, guid: e00189545c5ca8843ae1d1b77dcbb174, type: 3}
-      propertyPath: m_Cameras.Array.size
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 9204161817464752143, guid: e00189545c5ca8843ae1d1b77dcbb174, type: 3}
       propertyPath: m_Name
       value: CharacterController
