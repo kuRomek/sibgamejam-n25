@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 726d345ba1717094a8697c5ef4ef944c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6877d617453772e4f875432b4aebd5cb, type: 2}
     - target: {fileID: 919132149155446097, guid: 726d345ba1717094a8697c5ef4ef944c, type: 3}
       propertyPath: m_Name
       value: Wardrobe
@@ -59,5 +63,33 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 726d345ba1717094a8697c5ef4ef944c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8526823424055406252}
   m_SourcePrefab: {fileID: 100100000, guid: 726d345ba1717094a8697c5ef4ef944c, type: 3}
+--- !u!23 &5388688691629811487 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 726d345ba1717094a8697c5ef4ef944c, type: 3}
+  m_PrefabInstance: {fileID: 6704138496742849435}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5893113634735638218 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 726d345ba1717094a8697c5ef4ef944c, type: 3}
+  m_PrefabInstance: {fileID: 6704138496742849435}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8526823424055406252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5893113634735638218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 5388688691629811487}
+  _originalMaterial: {fileID: 2100000, guid: 2a9d13550596804428af35eecc55c0ed, type: 2}
+  _revealingSpeed: 0.5
