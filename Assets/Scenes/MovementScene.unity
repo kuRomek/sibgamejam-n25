@@ -504,6 +504,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1735774155574854987, guid: ada0f7c73db62f64da429aedff86fc8f, type: 3}
+      propertyPath: _teleportator
+      value: 
+      objectReference: {fileID: 5122610061242656205}
+    - target: {fileID: 1735774155574854987, guid: ada0f7c73db62f64da429aedff86fc8f, type: 3}
       propertyPath: _nextRoomPoint
       value: 
       objectReference: {fileID: 356504687}
@@ -562,8 +566,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6894531389016794314, guid: ada0f7c73db62f64da429aedff86fc8f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5122610061242656205}
   m_SourcePrefab: {fileID: 100100000, guid: ada0f7c73db62f64da429aedff86fc8f, type: 3}
+--- !u!1 &5122610061242656204 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6894531389016794314, guid: ada0f7c73db62f64da429aedff86fc8f, type: 3}
+  m_PrefabInstance: {fileID: 5122610061242656203}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5122610061242656205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5122610061242656204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb1a4965446645e40a938bca6dd00779, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _characterController: {fileID: 209538837}
+  _nextRoomPoint: {fileID: 356504687}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
