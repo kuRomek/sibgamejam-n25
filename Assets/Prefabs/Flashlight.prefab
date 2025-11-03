@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2822529045723685057}
   - component: {fileID: 4185314721198360584}
+  - component: {fileID: 1952237424292737274}
   m_Layer: 6
   m_Name: Flashlight
   m_TagString: Untagged
@@ -55,6 +56,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1952237424292737274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8734238742064007760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f562e1fed573134b95aa9633be458b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _beamMeshRenderer: {fileID: 0}
+  _maxOverheatTime: 3
+  _overheatCooldown: 5
+  _beamCollider: {fileID: 0}
 --- !u!1001 &6040521082685989176
 PrefabInstance:
   m_ObjectHideFlags: 0

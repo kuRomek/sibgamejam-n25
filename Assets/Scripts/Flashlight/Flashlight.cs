@@ -4,15 +4,15 @@ using UnityEngine;
 public class Flashlight : MonoBehaviour
 {
     [SerializeField] private MeshRenderer _beamMeshRenderer;
-    [SerializeField] private CapsuleCollider _capsuleCollider;
     [SerializeField] private float _maxOverheatTime;
     [SerializeField] private float _overheatCooldown;
+    [SerializeField] private Collider _beamCollider;
 
     private Material _material;
 
     public event Action Overheating;
 
-    public static CapsuleCollider Collider { get; private set; }
+    public static Collider Collider { get; private set; }
     public float AccumulatedOverheat { get; private set; }
     public bool Shooting { get; private set; }
     public bool Overheated { get; private set; }
@@ -22,7 +22,7 @@ public class Flashlight : MonoBehaviour
     private void Awake()
     {
         _material = _beamMeshRenderer.material;
-        Collider = _capsuleCollider;
+        Collider = _beamCollider;
     }
 
     private void Update()

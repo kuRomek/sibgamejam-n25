@@ -10,12 +10,13 @@ public class DissolvingObject : MonoBehaviour
 
     [SerializeField] private MeshRenderer _meshRenderer;
     [SerializeField] private Material _originalMaterial;
+    [SerializeField] private Collider _collider;
     [SerializeField] private float _revealingSpeed;
 
     private Material _material;
 
-    private float _revealingStartDistanceSquared = Mathf.Pow(2, 2);
-    private float _revealingStartDistanceSquaredBeam = 1f;
+    private float _revealingStartDistance = 3f;
+    private float _revealingStartDistanceBeam = 1f;
     private bool _revealed = false;
     private float _dissolveAmount;
 
@@ -25,11 +26,20 @@ public class DissolvingObject : MonoBehaviour
     {
         if (_meshRenderer == null)
             _meshRenderer = GetComponent<MeshRenderer>();
+
+        if (_collider == null)
+            _collider = GetComponent<Collider>();
     }
 
     private void Awake()
     {
         _material = _meshRenderer.material;
+    }
+
+    private void Start()
+    {
+        _material.SetFloat("_Reveal", 1f);
+        _material.SetFloat("_EdgeWidth", 1f);
     }
 
     private void Update()
@@ -40,20 +50,18 @@ public class DissolvingObject : MonoBehaviour
 
     private void UpdateDissolve()
     {
-        Vector3 beamClosestPoint = new Vector3(-10000, -10000, -10000);
+        float playerDistance = DistanceCalculator.Distance(_collider, Player.Collider);
+        float beamDistance = 9999999f;
 
-        if (Flashlight.Collider.gameObject.activeSelf == true)
-            beamClosestPoint = Flashlight.Collider.ClosestPoint(transform.position);
-
-        float playerDistance = (Player.Position - transform.position).sqrMagnitude;
-        float beamDistance = (beamClosestPoint - transform.position).sqrMagnitude;
+        if (Flashlight.Collider.gameObject.activeSelf)
+            beamDistance = DistanceCalculator.Distance(_collider, Flashlight.Collider);
 
         if (playerDistance < beamDistance)
         {
             _dissolveAmount = 1f -
-                Mathf.Max(0f, _revealingStartDistanceSquared - playerDistance + 2f) / _revealingStartDistanceSquared;
+                Mathf.Max(0f, _revealingStartDistance - playerDistance) / _revealingStartDistance;
         }
-        else if (beamDistance < _revealingStartDistanceSquaredBeam)
+        else if (beamDistance < _revealingStartDistanceBeam)
         {
             _dissolveAmount = Mathf.Max(0f, _dissolveAmount - _revealingSpeed * Time.deltaTime);
         }
