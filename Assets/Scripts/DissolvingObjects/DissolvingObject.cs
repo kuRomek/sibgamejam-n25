@@ -1,4 +1,5 @@
 using DG.Tweening;
+using System;
 using System.Linq;
 using UnityEngine;
 
@@ -17,6 +18,8 @@ public class DissolvingObject : MonoBehaviour
     private float _revealingStartDistanceSquaredBeam = 1f;
     private bool _revealed = false;
     private float _dissolveAmount;
+
+    public event Action Revealed;
 
     private void OnValidate()
     {
