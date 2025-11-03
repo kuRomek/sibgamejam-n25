@@ -10,7 +10,14 @@ public class DoorInteractor : MonoBehaviour
     [SerializeField] private Transform _overheating;
     [SerializeField] private AudioClip _audioClip;
     [SerializeField] private AudioSource _audioSource;
-    [SerializeField] private float _speed;
+
+    private float _speed = 10f;
+    private WaitForFixedUpdate _waitForFixedUpdate;
+
+    private void Awake()
+    {
+        _waitForFixedUpdate = new WaitForFixedUpdate();
+    }
 
     public void BecomeInteractable(bool hasCome)
     {
@@ -28,11 +35,12 @@ public class DoorInteractor : MonoBehaviour
         _flashlight.gameObject.SetActive(false);
         _overheating.gameObject.SetActive(false);
 
-        while (_panel.color.a == 1f)
+        while (_panel.color.a < 1f)
         {
             _panel.color = new Color(0, 0, 0, _panel.color.a + 0.1f * _speed * Time.deltaTime);
 
-            yield return new WaitForEndOfFrame();
+            yield return _waitForFixedUpdate;
+
         }
 
         _audioSource.PlayOneShot(_audioClip);
@@ -44,11 +52,11 @@ public class DoorInteractor : MonoBehaviour
         _flashlight.gameObject.SetActive(true);
         _overheating.gameObject.SetActive(true);
 
-        while (_panel.color.a == 0f)
+        while (_panel.color.a > 0f)
         {
             _panel.color = new Color(0, 0, 0, _panel.color.a - 0.1f * _speed * Time.deltaTime);
 
-            yield return new WaitForEndOfFrame();
+            yield return _waitForFixedUpdate;
         }
     }
 }
