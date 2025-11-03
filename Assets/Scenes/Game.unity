@@ -1699,8 +1699,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 637379688}
   - {fileID: 1062097734}
+  - {fileID: 637379688}
   - {fileID: 68398272}
   - {fileID: 280345142}
   - {fileID: 350345475}
@@ -22820,6 +22820,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _meshRenderer: {fileID: 2120224458}
+  _canvasRenderer: {fileID: 0}
   _originalMaterial: {fileID: 2100000, guid: 85337026086c90a4eb7dbb85bb7180bd, type: 2}
   _collider: {fileID: 2120224455}
   _revealingSpeed: 0
@@ -23342,7 +23343,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5820647558800299234, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8065741259909156735, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
       propertyPath: _point
