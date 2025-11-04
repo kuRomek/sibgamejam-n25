@@ -522,7 +522,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2894947179551609041
 RectTransform:
   m_ObjectHideFlags: 0
@@ -563,7 +563,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -698,8 +698,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _cameraTransform: {fileID: 1794638617100261830}
   _rigidbody: {fileID: 61702877924813573}
-  _mouseSensetivityX: 1000
-  _mouseSensetivityY: 1000
+  _mouseSensetivityX: 500
+  _mouseSensetivityY: 500
 --- !u!114 &3890524774836032818
 MonoBehaviour:
   m_ObjectHideFlags: 0

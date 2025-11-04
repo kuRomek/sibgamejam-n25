@@ -29,7 +29,6 @@ public class Rotator : MonoBehaviour
         _rotationX = Mathf.Clamp(_rotationX, _minRotationX, _maxRotationX);
 
         _cameraTransform.localRotation = Quaternion.Euler(_rotationX, default, default);
-        Quaternion deltaRotation = Quaternion.Euler(0f, mouseX, 0f);
-        _rigidbody.MoveRotation(_rigidbody.rotation * deltaRotation);
+        transform.Rotate(0f, mouseX, 0f);
     }
 }

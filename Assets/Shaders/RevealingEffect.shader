@@ -70,7 +70,7 @@
                 // noise mask
                 float n = tex2D(_NoiseTex, i.uv).r;
 
-                // reveal mask — работает "прямо"
+                // reveal mask
                 float mask = smoothstep(_Reveal, _Reveal + _EdgeWidth, n);
                 float edge = smoothstep(_Reveal - _EdgeWidth, _Reveal, n) - mask;
 

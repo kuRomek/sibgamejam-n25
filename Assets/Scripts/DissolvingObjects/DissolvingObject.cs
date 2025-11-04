@@ -9,8 +9,7 @@ public class DissolvingObject : MonoBehaviour
     private const float DissolveTolerance = 0.01f;
     private const float FlashAnimationDuration = 0.1f;
 
-    [SerializeField] private MeshRenderer _meshRenderer;
-    [SerializeField] private Image _canvasRenderer;
+    [SerializeField] private Renderer _renderer;
     [SerializeField] private Material _originalMaterial;
     [SerializeField] private Collider _collider;
     [SerializeField] private float _revealingSpeed;
@@ -26,11 +25,8 @@ public class DissolvingObject : MonoBehaviour
 
     private void OnValidate()
     {
-        if (_meshRenderer == null)
-            _meshRenderer = GetComponent<MeshRenderer>();
-
-        if (_canvasRenderer == null)
-            _canvasRenderer = GetComponent<Image>();
+        if (_renderer == null)
+            _renderer = GetComponent<Renderer>();
 
         if (_collider == null)
             _collider = GetComponent<Collider>();
@@ -38,10 +34,8 @@ public class DissolvingObject : MonoBehaviour
 
     private void Awake()
     {
-        if (_meshRenderer != null)
-            _material = _meshRenderer.material;
-        else if (_canvasRenderer != null)
-            _material = _canvasRenderer.material;
+        if (_renderer != null)
+            _material = _renderer.material;
     }
 
     private void Start()
@@ -88,7 +82,8 @@ public class DissolvingObject : MonoBehaviour
 
             Revealed?.Invoke();
 
-            Flash();
+            if (_renderer is MeshRenderer)
+                Flash();
         }
         else
         {
@@ -99,20 +94,22 @@ public class DissolvingObject : MonoBehaviour
 
     private void Flash()
     {
+        _material.mainTexture = null;
+
         DOTween.Sequence().
             Append(DOVirtual.Color(_material.GetColor("_MainColor"), Color.white, FlashAnimationDuration,
                 (value) => _material.SetColor("_MainColor", value)).OnComplete(() =>
                 {
-                    var materials = _meshRenderer.materials.ToList();
+                    var materials = _renderer.materials.ToList();
                     materials.Add(_originalMaterial);
-                    _meshRenderer.materials = materials.ToArray();
+                    _renderer.materials = materials.ToArray();
                 })).
             Append(DOVirtual.Color(Color.white, new Color(1f, 1f, 1f, 0f), FlashAnimationDuration,
                 (value) => _material.SetColor("_MainColor", value)).OnComplete(() =>
                 {
-                    var materials = _meshRenderer.materials.ToList();
+                    var materials = _renderer.materials.ToList();
                     materials.RemoveAt(0);
-                    _meshRenderer.materials = materials.ToArray();
+                    _renderer.materials = materials.ToArray();
                 }));
     }
 }

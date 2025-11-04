@@ -11,17 +11,15 @@ public class Mover : MonoBehaviour
     private float _directionY;
     private float _directionX;
 
+    private Vector3 _direction;
+
     private void Update()
     {
         _directionY = Input.GetAxis(VerticalAxis);
         _directionX = Input.GetAxis(HorizontalAxis);
-    }
 
-    private void FixedUpdate()
-    {
-        Vector3 moveDirection = (transform.forward * _directionY + transform.right * _directionX).normalized * _speed;
+        _direction = new Vector3(_directionX, 0f, _directionY);
 
-        float currentVelocityY = _rigidbody.linearVelocity.y;
-        _rigidbody.linearVelocity = new Vector3(moveDirection.x, currentVelocityY, moveDirection.z);
+        transform.Translate(_speed * Time.deltaTime * _direction, Space.Self);
     }
 }

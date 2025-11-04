@@ -10,19 +10,12 @@ public class Jumper : MonoBehaviour
     [SerializeField] private float _jumpHeight;
     [SerializeField] private float _detectorGroundRadius = 0.4f;
 
-    private float _defaultVelocity = -2;
     private bool _isGrounded;
-
-    private void FixedUpdate()
-    {
-        _isGrounded = IsGrounded();
-
-        if (_isGrounded && _rigidbody.linearVelocity.y < 0)
-            _rigidbody.linearVelocity = new Vector3(_rigidbody.linearVelocity.x, _defaultVelocity, _rigidbody.linearVelocity.z);
-    }
 
     private void Update()
     {       
+        _isGrounded = IsGrounded();
+
         if (Input.GetKeyDown(SpaceButton) && _isGrounded)
             Jump();
     }
