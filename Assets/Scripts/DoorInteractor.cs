@@ -10,6 +10,7 @@ public class DoorInteractor : MonoBehaviour
     [SerializeField] private Transform _flashlight;
     [SerializeField] private Transform _overheating;
     [SerializeField] private AudioClip _audioClip;
+    [SerializeField] private bool _isOpen = true;
 
     private float _speed = 10f;
     private AudioSource _audioSource;
@@ -25,12 +26,15 @@ public class DoorInteractor : MonoBehaviour
     {
         if (hasCome)
         {
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.E) && _isOpen == true)
             {
                 StartCoroutine(nameof(Flashback));
             }
         }
     }
+
+    public void Open() =>
+        _isOpen = true;
 
     private IEnumerator Flashback()
     {
