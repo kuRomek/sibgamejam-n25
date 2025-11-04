@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class DoorInteractor : MonoBehaviour
 {
     [SerializeField] private Teleportator _teleportator;
+    [SerializeField] private Finalizer _finalizer;
     [SerializeField] private Image _panel;
     [SerializeField] private Transform _flashlight;
     [SerializeField] private Transform _overheating;
@@ -28,9 +29,15 @@ public class DoorInteractor : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E) && _isOpen == true)
             {
-                Player.ToggleInvisible(true);
-                _teleportator.Teleport();
-                StartCoroutine(nameof(Flashback));
+                if (_teleportator != null)
+                {
+                    Player.ToggleInvisible(true);
+                    _teleportator.Teleport();
+                    StartCoroutine(nameof(Flashback));
+                }
+
+                if(_finalizer != null)
+                    _finalizer.ShowEnding();
             }
         }
     }
