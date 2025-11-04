@@ -10,7 +10,7 @@ public class Jumper : MonoBehaviour
     [SerializeField] private float _jumpHeight;
     [SerializeField] private float _detectorGroundRadius = 0.4f;
 
-    private bool _isGrounded;
+    public static bool _isGrounded;
 
     private void Update()
     {       

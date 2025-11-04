@@ -11075,9 +11075,21 @@ PrefabInstance:
       propertyPath: '_steps.Array.data[2]'
       value: 
       objectReference: {fileID: 8300000, guid: a264842863da9dc479e51389f7182d2a, type: 3}
+    - target: {fileID: 4545962150009524294, guid: e00189545c5ca8843ae1d1b77dcbb174, type: 3}
+      propertyPath: _mouseSensetivityX
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 4545962150009524294, guid: e00189545c5ca8843ae1d1b77dcbb174, type: 3}
+      propertyPath: _mouseSensetivityY
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 6290441692634950703, guid: e00189545c5ca8843ae1d1b77dcbb174, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6871918411717498360, guid: e00189545c5ca8843ae1d1b77dcbb174, type: 3}
+      propertyPath: _jumpHeight
+      value: 5.5
       objectReference: {fileID: 0}
     - target: {fileID: 8038255389652168115, guid: e00189545c5ca8843ae1d1b77dcbb174, type: 3}
       propertyPath: 'm_Cameras.Array.data[0]'
@@ -14517,11 +14529,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -19757,7 +19769,7 @@ PrefabInstance:
     - target: {fileID: 5211819172815165786, guid: 5c3cfd97e13d757459eb80bc9b1d5bb6, type: 3}
       propertyPath: _panel
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1488828185}
     - target: {fileID: 5211819172815165786, guid: 5c3cfd97e13d757459eb80bc9b1d5bb6, type: 3}
       propertyPath: _flashlight
       value: 

@@ -22,7 +22,7 @@ public class Mover : MonoBehaviour
         {
             _accumTime += Time.deltaTime;
 
-            if (_accumTime > _secondsForStep)
+            if (_accumTime > _secondsForStep && Jumper._isGrounded)
             {
                 _accumTime = 0;
                 _audioSource.PlayOneShot(_steps[Random.Range(0, _steps.Length)]);
