@@ -10678,6 +10678,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8258958521503202765, guid: ac136bc2397d20f40af0833bb879e8a8, type: 3}
   m_PrefabInstance: {fileID: 6450044055665347618}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1488828185 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5728358660499508456, guid: e00189545c5ca8843ae1d1b77dcbb174, type: 3}
+  m_PrefabInstance: {fileID: 1415568150}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!43 &1499714807
 Mesh:
   m_ObjectHideFlags: 0
@@ -16102,7 +16113,7 @@ PrefabInstance:
     - target: {fileID: 7679354634002687173, guid: 6d772556fe159044b80bd8084789769f, type: 3}
       propertyPath: _panel
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1488828185}
     - target: {fileID: 7679354634002687173, guid: 6d772556fe159044b80bd8084789769f, type: 3}
       propertyPath: _flashlight
       value: 
@@ -16175,7 +16186,7 @@ PrefabInstance:
     - target: {fileID: 2433932427673045684, guid: a99ff22afb2c4d14ca112a4c57f70bad, type: 3}
       propertyPath: _panel
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1488828185}
     - target: {fileID: 2433932427673045684, guid: a99ff22afb2c4d14ca112a4c57f70bad, type: 3}
       propertyPath: _flashlight
       value: 
@@ -16464,7 +16475,7 @@ PrefabInstance:
     - target: {fileID: 7132178195281654249, guid: 42ba10a947d86c24ab17911146d72bb2, type: 3}
       propertyPath: _panel
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1488828185}
     - target: {fileID: 7132178195281654249, guid: 42ba10a947d86c24ab17911146d72bb2, type: 3}
       propertyPath: _flashlight
       value: 
@@ -16521,7 +16532,7 @@ PrefabInstance:
     - target: {fileID: 1413938571930082338, guid: bb14537eceb06a2438060bef0a1bf3d8, type: 3}
       propertyPath: _panel
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1488828185}
     - target: {fileID: 1413938571930082338, guid: bb14537eceb06a2438060bef0a1bf3d8, type: 3}
       propertyPath: _flashlight
       value: 
@@ -16730,7 +16741,7 @@ PrefabInstance:
     - target: {fileID: 3998256014829816728, guid: 570b0f7b08c23934287ed75ea5341cc9, type: 3}
       propertyPath: _panel
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1488828185}
     - target: {fileID: 3998256014829816728, guid: 570b0f7b08c23934287ed75ea5341cc9, type: 3}
       propertyPath: _flashlight
       value: 
@@ -16967,7 +16978,7 @@ PrefabInstance:
     - target: {fileID: 3103586342557038891, guid: 69aface0403a1254095ccabb3a79ee36, type: 3}
       propertyPath: _panel
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1488828185}
     - target: {fileID: 3103586342557038891, guid: 69aface0403a1254095ccabb3a79ee36, type: 3}
       propertyPath: _flashlight
       value: 
@@ -17204,7 +17215,7 @@ PrefabInstance:
     - target: {fileID: 5725153048545763317, guid: edfe82fc494d6a94bb8c97ba70f651c2, type: 3}
       propertyPath: _panel
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1488828185}
     - target: {fileID: 5725153048545763317, guid: edfe82fc494d6a94bb8c97ba70f651c2, type: 3}
       propertyPath: _flashlight
       value: 
@@ -17341,7 +17352,7 @@ PrefabInstance:
     - target: {fileID: 3657439960261628717, guid: a919997f95fc83b44abfd3a8b010399b, type: 3}
       propertyPath: _panel
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1488828185}
     - target: {fileID: 3657439960261628717, guid: a919997f95fc83b44abfd3a8b010399b, type: 3}
       propertyPath: _flashlight
       value: 
@@ -17522,7 +17533,7 @@ PrefabInstance:
     - target: {fileID: 5866927565257787881, guid: 656328087c0116349a98df8c713afb50, type: 3}
       propertyPath: _panel
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1488828185}
     - target: {fileID: 5866927565257787881, guid: 656328087c0116349a98df8c713afb50, type: 3}
       propertyPath: _flashlight
       value: 
@@ -17614,7 +17625,7 @@ PrefabInstance:
     - target: {fileID: 8531098818569565257, guid: 656328087c0116349a98df8c713afb50, type: 3}
       propertyPath: _panel
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1488828185}
     - target: {fileID: 8531098818569565257, guid: 656328087c0116349a98df8c713afb50, type: 3}
       propertyPath: _flashlight
       value: 
@@ -17660,7 +17671,7 @@ PrefabInstance:
     - target: {fileID: 161140371345864954, guid: ac136bc2397d20f40af0833bb879e8a8, type: 3}
       propertyPath: _panel
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1488828185}
     - target: {fileID: 161140371345864954, guid: ac136bc2397d20f40af0833bb879e8a8, type: 3}
       propertyPath: _flashlight
       value: 
@@ -18158,7 +18169,7 @@ PrefabInstance:
     - target: {fileID: 6888880208045680282, guid: 5c3cfd97e13d757459eb80bc9b1d5bb6, type: 3}
       propertyPath: _panel
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1488828185}
     - target: {fileID: 6888880208045680282, guid: 5c3cfd97e13d757459eb80bc9b1d5bb6, type: 3}
       propertyPath: _flashlight
       value: 
@@ -18523,7 +18534,7 @@ PrefabInstance:
     - target: {fileID: 7541564889120120464, guid: 9d57799fad74afc44902b73512252120, type: 3}
       propertyPath: _panel
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1488828185}
     - target: {fileID: 7541564889120120464, guid: 9d57799fad74afc44902b73512252120, type: 3}
       propertyPath: _flashlight
       value: 
@@ -18732,7 +18743,7 @@ PrefabInstance:
     - target: {fileID: 7732200106608368170, guid: 97f69f54c0674f74482531962170ba84, type: 3}
       propertyPath: _panel
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1488828185}
     - target: {fileID: 7732200106608368170, guid: 97f69f54c0674f74482531962170ba84, type: 3}
       propertyPath: _flashlight
       value: 
