@@ -7,6 +7,8 @@ public class Flashlight : MonoBehaviour
     [SerializeField] private float _maxOverheatTime;
     [SerializeField] private float _overheatCooldown;
     [SerializeField] private Collider _beamCollider;
+    [SerializeField] private AudioSource _audioSource;
+    [SerializeField] private AudioClip _clickSound;
 
     private Material _material;
 
@@ -28,6 +30,9 @@ public class Flashlight : MonoBehaviour
     private void Update()
     {
         Shooting = Input.GetMouseButton(0);
+
+        if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonUp(0))
+            _audioSource.PlayOneShot(_clickSound);
 
         if (Overheated == false)
         {

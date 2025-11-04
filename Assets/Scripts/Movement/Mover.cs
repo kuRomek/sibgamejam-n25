@@ -7,18 +7,27 @@ public class Mover : MonoBehaviour
 
     [SerializeField] private Rigidbody _rigidbody;
     [SerializeField] private float _speed;
-
-    private float _directionY;
-    private float _directionX;
+    [SerializeField] private AudioSource _audioSource;
+    [SerializeField] private AudioClip[] _steps;
 
     private Vector3 _direction;
+    private float _accumTime = 0;
+    private float _secondsForStep = 0.5f;
 
     private void Update()
     {
-        _directionY = Input.GetAxis(VerticalAxis);
-        _directionX = Input.GetAxis(HorizontalAxis);
+        _direction = new Vector3(Input.GetAxis(HorizontalAxis), 0f, Input.GetAxis(VerticalAxis));
 
-        _direction = new Vector3(_directionX, 0f, _directionY);
+        if (_direction != Vector3.zero)
+        {
+            _accumTime += Time.deltaTime;
+
+            if (_accumTime > _secondsForStep)
+            {
+                _accumTime = 0;
+                _audioSource.PlayOneShot(_steps[Random.Range(0, _steps.Length)]);
+            }
+        }
 
         transform.Translate(_speed * Time.deltaTime * _direction, Space.Self);
     }
