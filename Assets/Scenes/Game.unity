@@ -16188,6 +16188,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1488828185}
     - target: {fileID: 2433932427673045684, guid: a99ff22afb2c4d14ca112a4c57f70bad, type: 3}
+      propertyPath: _isOpen
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2433932427673045684, guid: a99ff22afb2c4d14ca112a4c57f70bad, type: 3}
       propertyPath: _flashlight
       value: 
       objectReference: {fileID: 1042891671}
