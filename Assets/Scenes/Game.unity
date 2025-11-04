@@ -239,6 +239,7 @@ GameObject:
   - component: {fileID: 13677280}
   - component: {fileID: 13677279}
   - component: {fileID: 13677278}
+  - component: {fileID: 13677281}
   m_Layer: 3
   m_Name: PlateHighRoom (8)
   m_TagString: Untagged
@@ -305,7 +306,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -335,6 +336,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 13677276}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &13677281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13677276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 13677279}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
+  _collider: {fileID: 13677278}
+  _revealingSpeed: 0.5
 --- !u!1 &16815151
 GameObject:
   m_ObjectHideFlags: 0
@@ -1595,6 +1613,7 @@ GameObject:
   - component: {fileID: 210135429}
   - component: {fileID: 210135428}
   - component: {fileID: 210135427}
+  - component: {fileID: 210135430}
   m_Layer: 3
   m_Name: PlateHighRoom (25)
   m_TagString: Untagged
@@ -1661,7 +1680,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1691,6 +1710,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 210135425}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &210135430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210135425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 210135428}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
+  _collider: {fileID: 210135427}
+  _revealingSpeed: 0.5
 --- !u!4 &212379907 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3278555093297062352, guid: 85bd1367101c9494e87a7238102f970d, type: 3}
@@ -2058,6 +2094,7 @@ GameObject:
   - component: {fileID: 274367736}
   - component: {fileID: 274367735}
   - component: {fileID: 274367734}
+  - component: {fileID: 274367737}
   m_Layer: 3
   m_Name: PlateHighRoom (13)
   m_TagString: Untagged
@@ -2124,7 +2161,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2154,6 +2191,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 274367732}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &274367737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274367732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 274367735}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
+  _collider: {fileID: 274367734}
+  _revealingSpeed: 0.5
 --- !u!1 &276277847
 GameObject:
   m_ObjectHideFlags: 0
@@ -2197,6 +2251,7 @@ GameObject:
   - component: {fileID: 279366927}
   - component: {fileID: 279366926}
   - component: {fileID: 279366925}
+  - component: {fileID: 279366928}
   m_Layer: 3
   m_Name: PlateLavaRoom
   m_TagString: Untagged
@@ -2263,7 +2318,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2293,6 +2348,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 279366923}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &279366928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279366923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 279366926}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  _collider: {fileID: 279366925}
+  _revealingSpeed: 0.5
 --- !u!1001 &280345141
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2865,6 +2937,7 @@ GameObject:
   - component: {fileID: 315198877}
   - component: {fileID: 315198876}
   - component: {fileID: 315198875}
+  - component: {fileID: 315198878}
   m_Layer: 3
   m_Name: PlateHighRoom (22)
   m_TagString: Untagged
@@ -2931,7 +3004,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2961,6 +3034,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 315198873}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &315198878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315198873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 315198876}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
+  _collider: {fileID: 315198875}
+  _revealingSpeed: 0.5
 --- !u!1 &319497930
 GameObject:
   m_ObjectHideFlags: 0
@@ -3189,6 +3279,7 @@ GameObject:
   - component: {fileID: 331924770}
   - component: {fileID: 331924769}
   - component: {fileID: 331924768}
+  - component: {fileID: 331924771}
   m_Layer: 3
   m_Name: PlateHighRoom (24)
   m_TagString: Untagged
@@ -3255,7 +3346,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3285,6 +3376,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 331924766}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &331924771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331924766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 331924769}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
+  _collider: {fileID: 331924768}
+  _revealingSpeed: 0.5
 --- !u!1001 &350345474
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4277,6 +4385,7 @@ GameObject:
   - component: {fileID: 476512019}
   - component: {fileID: 476512018}
   - component: {fileID: 476512017}
+  - component: {fileID: 476512020}
   m_Layer: 3
   m_Name: PlateHighRoom (18)
   m_TagString: Untagged
@@ -4343,7 +4452,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4373,6 +4482,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 476512015}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &476512020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476512015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 476512018}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
+  _collider: {fileID: 476512017}
+  _revealingSpeed: 0.5
 --- !u!1 &478068682
 GameObject:
   m_ObjectHideFlags: 0
@@ -4556,6 +4682,7 @@ GameObject:
   - component: {fileID: 496143239}
   - component: {fileID: 496143238}
   - component: {fileID: 496143237}
+  - component: {fileID: 496143240}
   m_Layer: 3
   m_Name: PlateHighRoom (2)
   m_TagString: Untagged
@@ -4622,7 +4749,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4652,6 +4779,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496143235}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &496143240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496143235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 496143238}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
+  _collider: {fileID: 496143237}
+  _revealingSpeed: 0.5
 --- !u!1 &504355512
 GameObject:
   m_ObjectHideFlags: 0
@@ -5164,6 +5308,7 @@ GameObject:
   - component: {fileID: 574349191}
   - component: {fileID: 574349190}
   - component: {fileID: 574349189}
+  - component: {fileID: 574349192}
   m_Layer: 3
   m_Name: PlateHighRoom (12)
   m_TagString: Untagged
@@ -5230,7 +5375,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5260,6 +5405,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 574349187}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &574349192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574349187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 574349190}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
+  _collider: {fileID: 574349189}
+  _revealingSpeed: 0.5
 --- !u!1 &581774162
 GameObject:
   m_ObjectHideFlags: 0
@@ -5380,6 +5542,7 @@ GameObject:
   - component: {fileID: 587370738}
   - component: {fileID: 587370737}
   - component: {fileID: 587370736}
+  - component: {fileID: 587370739}
   m_Layer: 3
   m_Name: PlateLavaRoom (2)
   m_TagString: Untagged
@@ -5446,7 +5609,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5476,6 +5639,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 587370734}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &587370739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587370734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 587370737}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  _collider: {fileID: 587370736}
+  _revealingSpeed: 0.5
 --- !u!1 &592545992
 GameObject:
   m_ObjectHideFlags: 0
@@ -6768,6 +6948,7 @@ GameObject:
   - component: {fileID: 767304740}
   - component: {fileID: 767304739}
   - component: {fileID: 767304738}
+  - component: {fileID: 767304741}
   m_Layer: 3
   m_Name: PlateHighRoom (21)
   m_TagString: Untagged
@@ -6834,7 +7015,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6864,6 +7045,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 767304736}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &767304741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767304736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 767304739}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
+  _collider: {fileID: 767304738}
+  _revealingSpeed: 0.5
 --- !u!1001 &769551144
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7606,6 +7804,7 @@ GameObject:
   - component: {fileID: 823836614}
   - component: {fileID: 823836613}
   - component: {fileID: 823836612}
+  - component: {fileID: 823836615}
   m_Layer: 3
   m_Name: PlateLavaRoom (6)
   m_TagString: Untagged
@@ -7672,7 +7871,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7702,6 +7901,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 823836610}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &823836615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823836610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 823836613}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  _collider: {fileID: 823836612}
+  _revealingSpeed: 0.5
 --- !u!4 &829078866 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2687768712709140387, guid: d98cc23a7ec6c844ebe846848a2bf996, type: 3}
@@ -7890,6 +8106,7 @@ GameObject:
   - component: {fileID: 866588959}
   - component: {fileID: 866588958}
   - component: {fileID: 866588957}
+  - component: {fileID: 866588960}
   m_Layer: 3
   m_Name: PlateLavaRoom (1)
   m_TagString: Untagged
@@ -7956,7 +8173,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7986,6 +8203,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 866588955}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &866588960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866588955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 866588958}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  _collider: {fileID: 866588957}
+  _revealingSpeed: 0.5
 --- !u!1 &914846185
 GameObject:
   m_ObjectHideFlags: 0
@@ -8442,6 +8676,7 @@ GameObject:
   - component: {fileID: 953344979}
   - component: {fileID: 953344978}
   - component: {fileID: 953344977}
+  - component: {fileID: 953344980}
   m_Layer: 3
   m_Name: PlateHighRoom (10)
   m_TagString: Untagged
@@ -8508,7 +8743,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8538,6 +8773,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 953344975}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &953344980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953344975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 953344978}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
+  _collider: {fileID: 953344977}
+  _revealingSpeed: 0.5
 --- !u!1 &954200226
 GameObject:
   m_ObjectHideFlags: 0
@@ -10655,6 +10907,7 @@ GameObject:
   - component: {fileID: 1117587332}
   - component: {fileID: 1117587331}
   - component: {fileID: 1117587330}
+  - component: {fileID: 1117587333}
   m_Layer: 3
   m_Name: PlateHighRoom (19)
   m_TagString: Untagged
@@ -10721,7 +10974,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10751,6 +11004,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1117587328}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1117587333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117587328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 1117587331}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
+  _collider: {fileID: 1117587330}
+  _revealingSpeed: 0.5
 --- !u!1 &1132586113
 GameObject:
   m_ObjectHideFlags: 0
@@ -11823,6 +12093,7 @@ GameObject:
   - component: {fileID: 1229115086}
   - component: {fileID: 1229115085}
   - component: {fileID: 1229115084}
+  - component: {fileID: 1229115087}
   m_Layer: 3
   m_Name: PlateHighRoom
   m_TagString: Untagged
@@ -11889,7 +12160,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11919,6 +12190,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1229115082}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1229115087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229115082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 1229115085}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
+  _collider: {fileID: 1229115084}
+  _revealingSpeed: 0.5
 --- !u!1001 &1241357824
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12295,6 +12583,7 @@ GameObject:
   - component: {fileID: 1302814031}
   - component: {fileID: 1302814030}
   - component: {fileID: 1302814029}
+  - component: {fileID: 1302814032}
   m_Layer: 3
   m_Name: PlateHighRoom (15)
   m_TagString: Untagged
@@ -12361,7 +12650,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12391,6 +12680,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1302814027}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1302814032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302814027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 1302814030}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
+  _collider: {fileID: 1302814029}
+  _revealingSpeed: 0.5
 --- !u!1 &1314050229
 GameObject:
   m_ObjectHideFlags: 0
@@ -12698,6 +13004,7 @@ GameObject:
   - component: {fileID: 1348992881}
   - component: {fileID: 1348992880}
   - component: {fileID: 1348992879}
+  - component: {fileID: 1348992882}
   m_Layer: 3
   m_Name: PlateHighRoom (7)
   m_TagString: Untagged
@@ -12764,7 +13071,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12794,6 +13101,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1348992877}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1348992882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348992877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 1348992880}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
+  _collider: {fileID: 1348992879}
+  _revealingSpeed: 0.5
 --- !u!1 &1354192263
 GameObject:
   m_ObjectHideFlags: 0
@@ -12806,6 +13130,7 @@ GameObject:
   - component: {fileID: 1354192267}
   - component: {fileID: 1354192266}
   - component: {fileID: 1354192265}
+  - component: {fileID: 1354192268}
   m_Layer: 3
   m_Name: PlateHighRoom (17)
   m_TagString: Untagged
@@ -12872,7 +13197,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12902,6 +13227,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1354192263}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1354192268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354192263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 1354192266}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
+  _collider: {fileID: 1354192265}
+  _revealingSpeed: 0.5
 --- !u!1 &1365006774
 GameObject:
   m_ObjectHideFlags: 0
@@ -13617,6 +13959,7 @@ GameObject:
   - component: {fileID: 1400715891}
   - component: {fileID: 1400715890}
   - component: {fileID: 1400715889}
+  - component: {fileID: 1400715892}
   m_Layer: 3
   m_Name: PlateHighRoom (23)
   m_TagString: Untagged
@@ -13683,7 +14026,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13713,6 +14056,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1400715887}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1400715892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1400715887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 1400715890}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
+  _collider: {fileID: 1400715889}
+  _revealingSpeed: 0.5
 --- !u!1 &1412166258
 GameObject:
   m_ObjectHideFlags: 0
@@ -15693,6 +16053,7 @@ GameObject:
   - component: {fileID: 1660903026}
   - component: {fileID: 1660903025}
   - component: {fileID: 1660903024}
+  - component: {fileID: 1660903027}
   m_Layer: 3
   m_Name: PlateLavaRoom (4)
   m_TagString: Untagged
@@ -15759,7 +16120,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15789,6 +16150,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1660903022}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1660903027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660903022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 1660903025}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  _collider: {fileID: 1660903024}
+  _revealingSpeed: 0.5
 --- !u!1 &1668033625
 GameObject:
   m_ObjectHideFlags: 0
@@ -16080,6 +16458,7 @@ GameObject:
   - component: {fileID: 1691683209}
   - component: {fileID: 1691683208}
   - component: {fileID: 1691683207}
+  - component: {fileID: 1691683210}
   m_Layer: 3
   m_Name: PlateHighRoom (1)
   m_TagString: Untagged
@@ -16146,7 +16525,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16176,6 +16555,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1691683205}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1691683210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691683205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 1691683208}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
+  _collider: {fileID: 1691683207}
+  _revealingSpeed: 0.5
 --- !u!1001 &1717844517
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16251,6 +16647,7 @@ GameObject:
   - component: {fileID: 1720868219}
   - component: {fileID: 1720868218}
   - component: {fileID: 1720868217}
+  - component: {fileID: 1720868220}
   m_Layer: 3
   m_Name: PlateHighRoom (14)
   m_TagString: Untagged
@@ -16317,7 +16714,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16347,6 +16744,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1720868215}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1720868220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720868215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 1720868218}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
+  _collider: {fileID: 1720868217}
+  _revealingSpeed: 0.5
 --- !u!1 &1729124659
 GameObject:
   m_ObjectHideFlags: 0
@@ -16467,6 +16881,7 @@ GameObject:
   - component: {fileID: 1730996013}
   - component: {fileID: 1730996012}
   - component: {fileID: 1730996011}
+  - component: {fileID: 1730996014}
   m_Layer: 3
   m_Name: PlateHighRoom (16)
   m_TagString: Untagged
@@ -16533,7 +16948,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16563,6 +16978,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1730996009}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1730996014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730996009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 1730996012}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
+  _collider: {fileID: 1730996011}
+  _revealingSpeed: 0.5
 --- !u!1 &1737369504 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2752848156792503146, guid: 85bd1367101c9494e87a7238102f970d, type: 3}
@@ -16690,6 +17122,7 @@ GameObject:
   - component: {fileID: 1737950995}
   - component: {fileID: 1737950994}
   - component: {fileID: 1737950993}
+  - component: {fileID: 1737950996}
   m_Layer: 3
   m_Name: PlateLavaRoom (5)
   m_TagString: Untagged
@@ -16756,7 +17189,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16786,6 +17219,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1737950991}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1737950996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737950991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 1737950994}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  _collider: {fileID: 1737950993}
+  _revealingSpeed: 0.5
 --- !u!1001 &1742500234
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17784,6 +18234,7 @@ GameObject:
   - component: {fileID: 1844945413}
   - component: {fileID: 1844945412}
   - component: {fileID: 1844945411}
+  - component: {fileID: 1844945414}
   m_Layer: 3
   m_Name: PlateHighRoom (11)
   m_TagString: Untagged
@@ -17850,7 +18301,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17880,6 +18331,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1844945409}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1844945414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844945409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 1844945412}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
+  _collider: {fileID: 1844945411}
+  _revealingSpeed: 0.5
 --- !u!4 &1849602577 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2687768712709140387, guid: d98cc23a7ec6c844ebe846848a2bf996, type: 3}
@@ -18302,6 +18770,7 @@ GameObject:
   - component: {fileID: 1856206583}
   - component: {fileID: 1856206582}
   - component: {fileID: 1856206581}
+  - component: {fileID: 1856206584}
   m_Layer: 3
   m_Name: PlateHighRoom (5)
   m_TagString: Untagged
@@ -18368,7 +18837,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -18398,6 +18867,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1856206579}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1856206584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856206579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 1856206582}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
+  _collider: {fileID: 1856206581}
+  _revealingSpeed: 0.5
 --- !u!1001 &1871280263
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19179,6 +19665,7 @@ GameObject:
   - component: {fileID: 1978516644}
   - component: {fileID: 1978516643}
   - component: {fileID: 1978516642}
+  - component: {fileID: 1978516645}
   m_Layer: 3
   m_Name: PlateHighRoom (3)
   m_TagString: Untagged
@@ -19245,7 +19732,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19275,6 +19762,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1978516640}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1978516645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978516640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 1978516643}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
+  _collider: {fileID: 1978516642}
+  _revealingSpeed: 0.5
 --- !u!1 &1984364903
 GameObject:
   m_ObjectHideFlags: 0
@@ -24808,6 +25312,7 @@ GameObject:
   - component: {fileID: 2022302912}
   - component: {fileID: 2022302911}
   - component: {fileID: 2022302910}
+  - component: {fileID: 2022302913}
   m_Layer: 3
   m_Name: PlateHighRoom (20)
   m_TagString: Untagged
@@ -24874,7 +25379,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24904,6 +25409,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2022302908}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2022302913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2022302908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 2022302911}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
+  _collider: {fileID: 2022302910}
+  _revealingSpeed: 0.5
 --- !u!1001 &2060722367
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25531,6 +26053,7 @@ GameObject:
   - component: {fileID: 2095820041}
   - component: {fileID: 2095820040}
   - component: {fileID: 2095820039}
+  - component: {fileID: 2095820042}
   m_Layer: 3
   m_Name: PlateHighRoom (9)
   m_TagString: Untagged
@@ -25597,7 +26120,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -25627,6 +26150,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2095820037}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2095820042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095820037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 2095820040}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
+  _collider: {fileID: 2095820039}
+  _revealingSpeed: 0.5
 --- !u!1 &2095843270
 GameObject:
   m_ObjectHideFlags: 0
@@ -25639,6 +26179,7 @@ GameObject:
   - component: {fileID: 2095843274}
   - component: {fileID: 2095843273}
   - component: {fileID: 2095843272}
+  - component: {fileID: 2095843275}
   m_Layer: 3
   m_Name: PlateLavaRoom (3)
   m_TagString: Untagged
@@ -25705,7 +26246,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -25735,6 +26276,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2095843270}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2095843275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095843270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 2095843273}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  _collider: {fileID: 2095843272}
+  _revealingSpeed: 0.5
 --- !u!1 &2099668636
 GameObject:
   m_ObjectHideFlags: 0
@@ -25747,6 +26305,7 @@ GameObject:
   - component: {fileID: 2099668640}
   - component: {fileID: 2099668639}
   - component: {fileID: 2099668638}
+  - component: {fileID: 2099668641}
   m_Layer: 3
   m_Name: PlateHighRoom (4)
   m_TagString: Untagged
@@ -25813,7 +26372,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -25843,6 +26402,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2099668636}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2099668641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099668636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 2099668639}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
+  _collider: {fileID: 2099668638}
+  _revealingSpeed: 0.5
 --- !u!1 &2100697089
 GameObject:
   m_ObjectHideFlags: 0
@@ -26045,6 +26621,7 @@ GameObject:
   - component: {fileID: 2139398713}
   - component: {fileID: 2139398712}
   - component: {fileID: 2139398711}
+  - component: {fileID: 2139398714}
   m_Layer: 3
   m_Name: PlateHighRoom (6)
   m_TagString: Untagged
@@ -26111,7 +26688,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 15a306fe8509c08429c5d47b5f8e39ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -26141,6 +26718,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2139398709}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2139398714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139398709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _meshRenderer: {fileID: 2139398712}
+  _canvasRenderer: {fileID: 0}
+  _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
+  _collider: {fileID: 2139398711}
+  _revealingSpeed: 0.5
 --- !u!1001 &2140555207
 PrefabInstance:
   m_ObjectHideFlags: 0
