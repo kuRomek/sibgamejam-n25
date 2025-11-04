@@ -43,4 +43,11 @@ public class WaterLevelRise : MonoBehaviour
 
         transform.localScale = new Vector3(initialScale.x, _targetWaterLevelScaleY, initialScale.z);
     }
+
+    public void SetDefaultLevel()
+    {
+        transform.localScale = initialScale;
+        hasRisen = false;
+        ActivateWaterRise();
+    }
 }
