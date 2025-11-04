@@ -17496,7 +17496,7 @@ PrefabInstance:
       objectReference: {fileID: 1550509883}
     - target: {fileID: 2334821024594937194, guid: 656328087c0116349a98df8c713afb50, type: 3}
       propertyPath: m_VersionIndex
-      value: 3598
+      value: 3637
       objectReference: {fileID: 0}
     - target: {fileID: 2364505252553969017, guid: 656328087c0116349a98df8c713afb50, type: 3}
       propertyPath: m_Mesh
@@ -17508,7 +17508,7 @@ PrefabInstance:
       objectReference: {fileID: 790222730}
     - target: {fileID: 2822168114162617995, guid: 656328087c0116349a98df8c713afb50, type: 3}
       propertyPath: m_VersionIndex
-      value: 2127
+      value: 2166
       objectReference: {fileID: 0}
     - target: {fileID: 4228104735365035543, guid: 656328087c0116349a98df8c713afb50, type: 3}
       propertyPath: m_Mesh
@@ -17516,7 +17516,7 @@ PrefabInstance:
       objectReference: {fileID: 1956287698}
     - target: {fileID: 4228104735365035543, guid: 656328087c0116349a98df8c713afb50, type: 3}
       propertyPath: m_VersionIndex
-      value: 2861
+      value: 2900
       objectReference: {fileID: 0}
     - target: {fileID: 4636692517533799047, guid: 656328087c0116349a98df8c713afb50, type: 3}
       propertyPath: m_Mesh
@@ -17524,7 +17524,7 @@ PrefabInstance:
       objectReference: {fileID: 317269557}
     - target: {fileID: 4636692517533799047, guid: 656328087c0116349a98df8c713afb50, type: 3}
       propertyPath: m_VersionIndex
-      value: 2251
+      value: 2290
       objectReference: {fileID: 0}
     - target: {fileID: 4980356595946391355, guid: 656328087c0116349a98df8c713afb50, type: 3}
       propertyPath: m_Mesh
@@ -17538,6 +17538,10 @@ PrefabInstance:
       propertyPath: _panel
       value: 
       objectReference: {fileID: 1488828185}
+    - target: {fileID: 5866927565257787881, guid: 656328087c0116349a98df8c713afb50, type: 3}
+      propertyPath: _audioClip
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5866927565257787881, guid: 656328087c0116349a98df8c713afb50, type: 3}
       propertyPath: _flashlight
       value: 
@@ -17616,7 +17620,7 @@ PrefabInstance:
       objectReference: {fileID: 976375119}
     - target: {fileID: 7778762563017557282, guid: 656328087c0116349a98df8c713afb50, type: 3}
       propertyPath: m_VersionIndex
-      value: 2899
+      value: 2938
       objectReference: {fileID: 0}
     - target: {fileID: 8124903011028083619, guid: 656328087c0116349a98df8c713afb50, type: 3}
       propertyPath: m_Mesh
@@ -17624,12 +17628,16 @@ PrefabInstance:
       objectReference: {fileID: 1279909646}
     - target: {fileID: 8124903011028083619, guid: 656328087c0116349a98df8c713afb50, type: 3}
       propertyPath: m_VersionIndex
-      value: 3732
+      value: 3771
       objectReference: {fileID: 0}
     - target: {fileID: 8531098818569565257, guid: 656328087c0116349a98df8c713afb50, type: 3}
       propertyPath: _panel
       value: 
       objectReference: {fileID: 1488828185}
+    - target: {fileID: 8531098818569565257, guid: 656328087c0116349a98df8c713afb50, type: 3}
+      propertyPath: _audioClip
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8531098818569565257, guid: 656328087c0116349a98df8c713afb50, type: 3}
       propertyPath: _flashlight
       value: 
@@ -17654,7 +17662,9 @@ PrefabInstance:
       propertyPath: _rigidbody
       value: 
       objectReference: {fileID: 1052017150}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8369643653579867967, guid: 656328087c0116349a98df8c713afb50, type: 3}
+    - {fileID: 5992598042124991135, guid: 656328087c0116349a98df8c713afb50, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
