@@ -935,8 +935,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a614ed6232332da4598d2682067d3bf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _targetWaterLevelScaleY: 8
-  _duration: 8
+  _targetWaterLevelScaleY: 16
+  _duration: 64
 --- !u!114 &9122401896186534258
 MonoBehaviour:
   m_ObjectHideFlags: 0
