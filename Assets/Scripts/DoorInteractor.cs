@@ -2,6 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
+[RequireComponent(typeof(AudioSource))]
 public class DoorInteractor : MonoBehaviour
 {
     [SerializeField] private Teleportator _teleportator;
@@ -9,14 +10,15 @@ public class DoorInteractor : MonoBehaviour
     [SerializeField] private Transform _flashlight;
     [SerializeField] private Transform _overheating;
     [SerializeField] private AudioClip _audioClip;
-    [SerializeField] private AudioSource _audioSource;
 
     private float _speed = 10f;
+    private AudioSource _audioSource;
     private WaitForFixedUpdate _waitForFixedUpdate;
 
     private void Awake()
     {
         _waitForFixedUpdate = new WaitForFixedUpdate();
+        _audioSource = GetComponent<AudioSource>();
     }
 
     public void BecomeInteractable(bool hasCome)

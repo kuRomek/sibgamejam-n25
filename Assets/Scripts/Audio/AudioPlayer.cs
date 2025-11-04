@@ -1,13 +1,19 @@
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource), typeof(DissolvingObject))]
 public class AudioPlayer : MonoBehaviour
 {
-    [SerializeField] private AudioSource _audioSource;
     [SerializeField] private AudioKeeper _audioKeeper;
-    [SerializeField] private DissolvingObject _dissolvingObject;
 
-    public void OnEnable() =>
+    private DissolvingObject _dissolvingObject;
+    private AudioSource _audioSource;
+
+    public void OnEnable()
+    {
+        _audioSource = GetComponent<AudioSource>();
+        _dissolvingObject = GetComponent<DissolvingObject>();
         _dissolvingObject.Revealed += PlayClip;
+    }
 
     private void OnDisable() =>
         _dissolvingObject.Revealed -= PlayClip;

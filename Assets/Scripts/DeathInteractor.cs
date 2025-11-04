@@ -13,10 +13,4 @@ public class DeathInteractor : MonoBehaviour
             _teleportator.Teleport();
         }
     }
-
-    public void OnDrawGizmos()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireCube(transform.position, transform.localScale);
-    }
 }
