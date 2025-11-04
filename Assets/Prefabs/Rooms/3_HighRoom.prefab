@@ -473,8 +473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _meshRenderer: {fileID: 7889160209114784832}
-  _canvasRenderer: {fileID: 0}
+  _renderer: {fileID: 7889160209114784832}
   _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
   _collider: {fileID: 284889711557339074}
   _revealingSpeed: 0.5
@@ -599,8 +598,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _meshRenderer: {fileID: 8337880983706299111}
-  _canvasRenderer: {fileID: 0}
+  _renderer: {fileID: 8337880983706299111}
   _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
   _collider: {fileID: 7521905978801511396}
   _revealingSpeed: 0.5
@@ -725,8 +723,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _meshRenderer: {fileID: 751206870610656639}
-  _canvasRenderer: {fileID: 0}
+  _renderer: {fileID: 751206870610656639}
   _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
   _collider: {fileID: 8376650664186910122}
   _revealingSpeed: 0.5
@@ -851,8 +848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _meshRenderer: {fileID: 6467859123242548361}
-  _canvasRenderer: {fileID: 0}
+  _renderer: {fileID: 6467859123242548361}
   _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
   _collider: {fileID: 3113260875195983578}
   _revealingSpeed: 0.5
@@ -977,8 +973,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _meshRenderer: {fileID: 3513586212915931116}
-  _canvasRenderer: {fileID: 0}
+  _renderer: {fileID: 3513586212915931116}
   _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
   _collider: {fileID: 7842152742740018317}
   _revealingSpeed: 0.5
@@ -1103,8 +1098,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _meshRenderer: {fileID: 5221817794350394249}
-  _canvasRenderer: {fileID: 0}
+  _renderer: {fileID: 5221817794350394249}
   _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
   _collider: {fileID: 730266142566507026}
   _revealingSpeed: 0.5
@@ -1229,8 +1223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _meshRenderer: {fileID: 7056593032881510001}
-  _canvasRenderer: {fileID: 0}
+  _renderer: {fileID: 7056593032881510001}
   _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
   _collider: {fileID: 4231310826787743518}
   _revealingSpeed: 0.5
@@ -1355,8 +1348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _meshRenderer: {fileID: 5102607192194132132}
-  _canvasRenderer: {fileID: 0}
+  _renderer: {fileID: 5102607192194132132}
   _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
   _collider: {fileID: 8131037249055370356}
   _revealingSpeed: 0.5
@@ -1833,8 +1825,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _meshRenderer: {fileID: 1083043152221575065}
-  _canvasRenderer: {fileID: 0}
+  _renderer: {fileID: 1083043152221575065}
   _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
   _collider: {fileID: 1294585522564017670}
   _revealingSpeed: 0.5
@@ -1959,8 +1950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _meshRenderer: {fileID: 116571603064954105}
-  _canvasRenderer: {fileID: 0}
+  _renderer: {fileID: 116571603064954105}
   _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
   _collider: {fileID: 9200931287064867293}
   _revealingSpeed: 0.5
@@ -2468,8 +2458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _meshRenderer: {fileID: 7481991299431801257}
-  _canvasRenderer: {fileID: 0}
+  _renderer: {fileID: 7481991299431801257}
   _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
   _collider: {fileID: 5400240151943713673}
   _revealingSpeed: 0.5
@@ -2594,8 +2583,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _meshRenderer: {fileID: 2275817266607646824}
-  _canvasRenderer: {fileID: 0}
+  _renderer: {fileID: 2275817266607646824}
   _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
   _collider: {fileID: 8377035083532533276}
   _revealingSpeed: 0.5
@@ -2785,8 +2773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _meshRenderer: {fileID: 5248359319116190005}
-  _canvasRenderer: {fileID: 0}
+  _renderer: {fileID: 5248359319116190005}
   _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
   _collider: {fileID: 3541003068014861124}
   _revealingSpeed: 0.5
@@ -3263,8 +3250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _meshRenderer: {fileID: 717732235470444698}
-  _canvasRenderer: {fileID: 0}
+  _renderer: {fileID: 717732235470444698}
   _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
   _collider: {fileID: 8257654856751642849}
   _revealingSpeed: 0.5
@@ -3389,8 +3375,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _meshRenderer: {fileID: 6247313747281702303}
-  _canvasRenderer: {fileID: 0}
+  _renderer: {fileID: 6247313747281702303}
   _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
   _collider: {fileID: 7813410716743594209}
   _revealingSpeed: 0.5
@@ -3515,8 +3500,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _meshRenderer: {fileID: 2163143881122867214}
-  _canvasRenderer: {fileID: 0}
+  _renderer: {fileID: 2163143881122867214}
   _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
   _collider: {fileID: 768616807098657772}
   _revealingSpeed: 0.5
@@ -3993,8 +3977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _meshRenderer: {fileID: 6101150963640897629}
-  _canvasRenderer: {fileID: 0}
+  _renderer: {fileID: 6101150963640897629}
   _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
   _collider: {fileID: 1641830223246207688}
   _revealingSpeed: 0.5
@@ -4119,8 +4102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _meshRenderer: {fileID: 2090679559833297653}
-  _canvasRenderer: {fileID: 0}
+  _renderer: {fileID: 2090679559833297653}
   _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
   _collider: {fileID: 8872253032390844824}
   _revealingSpeed: 0.5
@@ -4597,8 +4579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _meshRenderer: {fileID: 8652944764364368295}
-  _canvasRenderer: {fileID: 0}
+  _renderer: {fileID: 8652944764364368295}
   _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
   _collider: {fileID: 8978451276569968346}
   _revealingSpeed: 0.5
@@ -4723,8 +4704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _meshRenderer: {fileID: 1068409211722769093}
-  _canvasRenderer: {fileID: 0}
+  _renderer: {fileID: 1068409211722769093}
   _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
   _collider: {fileID: 3910587653459377927}
   _revealingSpeed: 0.5
@@ -4849,8 +4829,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _meshRenderer: {fileID: 6529492677940542616}
-  _canvasRenderer: {fileID: 0}
+  _renderer: {fileID: 6529492677940542616}
   _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
   _collider: {fileID: 4996335721395732688}
   _revealingSpeed: 0.5
@@ -4975,8 +4954,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _meshRenderer: {fileID: 4486685872074500649}
-  _canvasRenderer: {fileID: 0}
+  _renderer: {fileID: 4486685872074500649}
   _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
   _collider: {fileID: 8475136504782799297}
   _revealingSpeed: 0.5
@@ -5280,7 +5258,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: 784bb02da18046e4d86bf37a02a82e91, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5453,8 +5431,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _meshRenderer: {fileID: 1828622427938209946}
-  _canvasRenderer: {fileID: 0}
+  _renderer: {fileID: 1828622427938209946}
   _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
   _collider: {fileID: 1402401443065293941}
   _revealingSpeed: 0.5
@@ -5579,8 +5556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _meshRenderer: {fileID: 1678178182089523970}
-  _canvasRenderer: {fileID: 0}
+  _renderer: {fileID: 1678178182089523970}
   _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
   _collider: {fileID: 1278045256545170100}
   _revealingSpeed: 0.5
@@ -5705,8 +5681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21797a1ec61c9b74c92ee385df4b89f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _meshRenderer: {fileID: 6578389625290389573}
-  _canvasRenderer: {fileID: 0}
+  _renderer: {fileID: 6578389625290389573}
   _originalMaterial: {fileID: 2100000, guid: 940b158461018ec4bb6d82a97be2ec2b, type: 2}
   _collider: {fileID: 4280388211415956963}
   _revealingSpeed: 0.5
