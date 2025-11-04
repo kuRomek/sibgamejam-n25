@@ -2326,10 +2326,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3233191349936280445, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-      propertyPath: _collider
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
       propertyPath: _doorInteractor
       value: 
@@ -2343,7 +2339,6 @@ PrefabInstance:
     - {fileID: 4992443563566316725, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 6919158495310148195, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-    - {fileID: 1663862482109913055, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2405,10 +2400,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3233191349936280445, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-      propertyPath: _collider
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
       propertyPath: _doorInteractor
       value: 
@@ -2422,7 +2413,6 @@ PrefabInstance:
     - {fileID: 4992443563566316725, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 6919158495310148195, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-    - {fileID: 1663862482109913055, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2484,10 +2474,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3233191349936280445, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-      propertyPath: _collider
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
       propertyPath: _doorInteractor
       value: 
@@ -2501,7 +2487,6 @@ PrefabInstance:
     - {fileID: 4992443563566316725, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 6919158495310148195, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-    - {fileID: 1663862482109913055, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2563,10 +2548,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3233191349936280445, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-      propertyPath: _collider
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
       propertyPath: _doorInteractor
       value: 
@@ -2580,7 +2561,6 @@ PrefabInstance:
     - {fileID: 4992443563566316725, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 6919158495310148195, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-    - {fileID: 1663862482109913055, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2642,10 +2622,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3233191349936280445, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-      propertyPath: _collider
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
       propertyPath: _doorInteractor
       value: 
@@ -2659,7 +2635,6 @@ PrefabInstance:
     - {fileID: 4992443563566316725, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 6919158495310148195, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-    - {fileID: 1663862482109913055, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2721,10 +2696,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3233191349936280445, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-      propertyPath: _collider
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
       propertyPath: _doorInteractor
       value: 
@@ -2738,7 +2709,6 @@ PrefabInstance:
     - {fileID: 4992443563566316725, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 6919158495310148195, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-    - {fileID: 1663862482109913055, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2800,10 +2770,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3233191349936280445, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-      propertyPath: _collider
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
       propertyPath: _doorInteractor
       value: 
@@ -2817,7 +2783,6 @@ PrefabInstance:
     - {fileID: 4992443563566316725, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 6919158495310148195, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-    - {fileID: 1663862482109913055, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2879,10 +2844,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3233191349936280445, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-      propertyPath: _collider
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
       propertyPath: _doorInteractor
       value: 
@@ -2896,7 +2857,6 @@ PrefabInstance:
     - {fileID: 4992443563566316725, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 6919158495310148195, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-    - {fileID: 1663862482109913055, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2958,10 +2918,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3233191349936280445, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-      propertyPath: _collider
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
       propertyPath: _doorInteractor
       value: 
@@ -2975,7 +2931,6 @@ PrefabInstance:
     - {fileID: 4992443563566316725, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 6919158495310148195, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-    - {fileID: 1663862482109913055, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3037,10 +2992,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3233191349936280445, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-      propertyPath: _collider
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
       propertyPath: _doorInteractor
       value: 
@@ -3054,7 +3005,6 @@ PrefabInstance:
     - {fileID: 4992443563566316725, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 6919158495310148195, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-    - {fileID: 1663862482109913055, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3116,10 +3066,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3233191349936280445, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-      propertyPath: _collider
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
       propertyPath: _doorInteractor
       value: 
@@ -3133,7 +3079,6 @@ PrefabInstance:
     - {fileID: 4992443563566316725, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 6919158495310148195, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-    - {fileID: 1663862482109913055, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3195,10 +3140,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3233191349936280445, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-      propertyPath: _collider
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
       propertyPath: _doorInteractor
       value: 
@@ -3212,7 +3153,6 @@ PrefabInstance:
     - {fileID: 4992443563566316725, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 6919158495310148195, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-    - {fileID: 1663862482109913055, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3274,10 +3214,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3233191349936280445, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-      propertyPath: _collider
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
       propertyPath: _doorInteractor
       value: 
@@ -3291,7 +3227,6 @@ PrefabInstance:
     - {fileID: 4992443563566316725, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 6919158495310148195, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-    - {fileID: 1663862482109913055, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3353,10 +3288,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3233191349936280445, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-      propertyPath: _collider
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
       propertyPath: _doorInteractor
       value: 
@@ -3370,7 +3301,6 @@ PrefabInstance:
     - {fileID: 4992443563566316725, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 6919158495310148195, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-    - {fileID: 1663862482109913055, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3432,10 +3362,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3233191349936280445, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-      propertyPath: _collider
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
       propertyPath: _doorInteractor
       value: 
@@ -3449,7 +3375,6 @@ PrefabInstance:
     - {fileID: 4992443563566316725, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 6919158495310148195, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-    - {fileID: 1663862482109913055, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3511,10 +3436,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3233191349936280445, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-      propertyPath: _collider
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
       propertyPath: _doorInteractor
       value: 
@@ -3528,7 +3449,6 @@ PrefabInstance:
     - {fileID: 4992443563566316725, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 6919158495310148195, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-    - {fileID: 1663862482109913055, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3590,10 +3510,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3233191349936280445, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-      propertyPath: _collider
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
       propertyPath: _doorInteractor
       value: 
@@ -3607,7 +3523,6 @@ PrefabInstance:
     - {fileID: 4992443563566316725, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 4585115277940255035, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     - {fileID: 6919158495310148195, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
-    - {fileID: 1663862482109913055, guid: 39b8a20e8381daa4082b1b2932a40b1c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

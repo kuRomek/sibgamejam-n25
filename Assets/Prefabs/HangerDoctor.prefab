@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _navMeshAgent: {fileID: 7492252711689801438}
-  _teleportator: {fileID: 0}
+  _teleportator: {fileID: 1295872475674116168}
 --- !u!114 &1295872475674116168
 MonoBehaviour:
   m_ObjectHideFlags: 0
