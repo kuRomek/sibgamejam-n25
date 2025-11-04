@@ -8,7 +8,8 @@ public class Enemy : MonoBehaviour
 
     private void FixedUpdate()
     {
-        _navMeshAgent.SetDestination(Player.Position);
+        if (Player.IsInvisible == false)
+            _navMeshAgent.SetDestination(Player.Position);
     }
 
     private void OnTriggerEnter(Collider other)

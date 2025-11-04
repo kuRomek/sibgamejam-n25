@@ -28,6 +28,8 @@ public class DoorInteractor : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E) && _isOpen == true)
             {
+                Player.ToggleInvisible(true);
+                _teleportator.Teleport();
                 StartCoroutine(nameof(Flashback));
             }
         }
@@ -38,6 +40,7 @@ public class DoorInteractor : MonoBehaviour
 
     private IEnumerator Flashback()
     {
+
         _flashlight.gameObject.SetActive(false);
         _overheating.gameObject.SetActive(false);
 
@@ -53,8 +56,6 @@ public class DoorInteractor : MonoBehaviour
 
         yield return new WaitWhile(() => _audioSource.isPlaying);
 
-        _teleportator.Teleport();
-
         _flashlight.gameObject.SetActive(true);
         _overheating.gameObject.SetActive(true);
 
@@ -64,5 +65,7 @@ public class DoorInteractor : MonoBehaviour
 
             yield return _waitForFixedUpdate;
         }
+
+        Player.ToggleInvisible(false);
     }
 }

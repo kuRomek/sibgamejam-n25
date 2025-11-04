@@ -2628,10 +2628,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 530959338220366049}
     m_Modifications:
-    - target: {fileID: 7007175675611616429, guid: 49a599c3fac7bfa4cb38d442998e73e3, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8253940360728042719, guid: 49a599c3fac7bfa4cb38d442998e73e3, type: 3}
       propertyPath: m_Name
       value: HangerDoctor

@@ -8,10 +8,16 @@ public class Player : MonoBehaviour
 
     public static Vector3 Position => _transform.position;
     public static Collider Collider { get; private set; }
+    public static bool IsInvisible { get; private set; }
 
     private void Awake()
     {
         _transform = transform;
         Collider = _collider;
+    }
+
+    public static void ToggleInvisible(bool isInvisible)
+    {
+        IsInvisible = isInvisible;
     }
 }
